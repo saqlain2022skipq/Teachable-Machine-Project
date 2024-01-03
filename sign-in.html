@@ -16,6 +16,7 @@
         <input id="Father-Name" type="text" name="Father Name" placeholder="Father Name"><br>
         <input id="password" type="password" name="password" placeholder="Password"><br>
         
+        <!-- Starting Module -->
         <div>Teachable Machine Image Model</div>
 <button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
@@ -27,7 +28,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "./my_model/";
+    const URL = "https://teachablemachine.withgoogle.com/models/lbCQcICzG/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -75,7 +76,6 @@
         }
     }
 </script>
-
 
 
         
